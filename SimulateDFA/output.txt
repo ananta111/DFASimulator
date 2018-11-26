@@ -1,0 +1,45 @@
+String abab was given to the machine as input
+
+0--a-->1
+1--b-->0
+0--a-->1
+1--b-->0
+The string was accepted by this machine.
+
+---------------------------------------------------
+String abab was given to the machine as input
+
+0--a-->1
+1--b-->0
+0--a-->1
+1--b-->0
+The string was accepted by this machine.
+
+---------------------------------------------------
+String aaa was given to the machine as input
+
+0--a-->1
+1--a-->2
+2--a-->2
+The string was rejected by this machine.
+
+----------------------------------------------------
+String bbb was given to the machine as input
+
+0--b-->2
+2--b-->2
+2--b-->2
+The string was rejected by this machine.
+
+----------------------------------------------------
+String aababb was given to the machine as input
+
+0--a-->1
+1--a-->2
+2--b-->2
+2--a-->2
+2--b-->2
+2--b-->2
+The string was rejected by this machine.
+
+----------------------------------------------------
